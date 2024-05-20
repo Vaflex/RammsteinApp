@@ -1,0 +1,63 @@
+﻿<Window x:Class="ramm.win3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ramm"
+        mc:Ignorable="d"
+        Title="win3" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="35"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="120"/>
+            <ColumnDefinition Width="120"/>
+            
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="240"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        <Grid.Background>
+            <ImageBrush ImageSource="/bcg.jpg"/>
+        </Grid.Background>
+
+        <Image Source="/kruspe.jpg" Grid.Row="1" Grid.Column="1" MouseLeftButtonDown="richard"></Image>
+        <Popup x:Name="popup" PlacementTarget="{Binding ElementName=image}" Placement="Bottom">
+            <TextBlock TextWrapping="WrapWithOverflow" Background="LightGray" Padding="10" Text="Richard Zven Kruspe is a renowned guitarist and songwriter, best known as a founding member of the German industrial metal band Rammstein. His innovative guitar playing and provocative songwriting have made him a prominent figure in the music industry. Kruspe has also been involved in side projects like Emigrate and Lindemann, showcasing his versatility as a musician."/>
+        </Popup>
+        
+        <Image Source="/flake.jpg" Grid.Row="1" Grid.Column="2" MouseLeftButtonDown="flake"></Image>
+        <Popup x:Name="popup2" PlacementTarget="{Binding ElementName=image}" Placement="Bottom">
+            <TextBlock TextWrapping="WrapWithOverflow" Background="LightGray" Padding="10" Text="Christian Flake Lorenz, born on November 16, 1966, in East Berlin, is the keyboardist for the German industrial metal band Rammstein. He started his music career with the punk band Feeling B before joining Rammstein in 1994. Known for his distinctive keyboard style, Flake is integral to Rammstein's sound and live performances. He is also an amateur painter and classic car enthusiast, and he runs a vintage car hire business. Flake is married to artist Jenny Rosemeyer and has five children​ "/>
+        </Popup>
+        
+        <Image Source="/landers.jpg" Grid.Row="1" Grid.Column="3" MouseLeftButtonDown="paul"></Image>
+        <Popup x:Name="popup3" PlacementTarget="{Binding ElementName=image}" Placement="Bottom">
+            <TextBlock TextWrapping="WrapWithOverflow" Background="LightGray" Padding="10" Text="Paul Landers, born December 9, 1964, is the rhythm guitarist for the German band Rammstein. His heavy riffs and stoic stage presence have made him an iconic figure in the world of industrial metal."/>
+        </Popup>
+        
+        <Image Source="/lindemann.jpg" Grid.Row="1" Grid.Column="4" MouseLeftButtonDown="lindemann"></Image>
+        <Popup x:Name="popup4" PlacementTarget="{Binding ElementName=image}" Placement="Bottom">
+            <TextBlock TextWrapping="WrapWithOverflow" Background="LightGray" Padding="10" Text="Till Lindemann, born January 4, 1963, is the charismatic frontman of the German band Rammstein. Known for his deep vocals and provocative lyrics, he's a former Olympic-level swimmer turned iconic industrial metal singer. Lindemann's commanding stage presence and darkly poetic style have made him a legend in the world of rock."/>
+        </Popup>
+        
+        <Image Source="/schneider.jpg" Grid.Row="1" Grid.Column="5" MouseLeftButtonDown="schneider"></Image>
+        <Popup x:Name="popup5" PlacementTarget="{Binding ElementName=image}" Placement="Bottom">
+            <TextBlock TextWrapping="WrapWithOverflow" Background="LightGray" Padding="10" Text="Christian Doom Schneider, born on May 11, 1966, is the drummer of the German band Rammstein. Known for his precise and powerful drumming style, Schneider provides the driving rhythmic backbone to Rammstein's industrial metal sound. His dynamic playing, characterized by thunderous beats and intricate rhythms, has been integral to the band's success. Offstage, Schneider maintains a relatively private persona, allowing his drumming prowess to speak volumes on its own."/>
+        </Popup>
+        
+        <Image Source="/riedel.jpg" Grid.Row="1" Grid.Column="6" MouseLeftButtonDown="riedel"></Image>
+        <Popup x:Name="popup6" PlacementTarget="{Binding ElementName=image}" Placement="Bottom">
+            <TextBlock TextWrapping="WrapWithOverflow" Background="LightGray" Padding="10" Text="Oliver Ollie Riedel, born April 11, 1971, is the bassist of Rammstein, known for his solid basslines and commanding stage presence."/>
+        </Popup>
+
+        <Button x:Name="button1" Grid.Row="3" Content="Back" Click="Button_Back" Grid.Column="1" Foreground="Red" FontFamily="Segoe UI Black" FontWeight="Bold" FontSize="36" Background="{x:Null}"></Button>
+
+    </Grid>
+</Window>

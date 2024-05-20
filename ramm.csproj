@@ -1,0 +1,49 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bcg.jpg" />
+    <None Remove="flake.jpg" />
+    <None Remove="herzeleid.jpg" />
+    <None Remove="kruspe.jpg" />
+    <None Remove="landers.jpg" />
+    <None Remove="lifad.jpeg" />
+    <None Remove="lindemann.jpg" />
+    <None Remove="mutter.jpg" />
+    <None Remove="rammstein.jpg" />
+    <None Remove="rammsteinlogo.ico" />
+    <None Remove="reisereise.jpg" />
+    <None Remove="riedel.jpg" />
+    <None Remove="rosenrot.jpeg" />
+    <None Remove="schneider.jpg" />
+    <None Remove="sehnsucht.jpg" />
+    <None Remove="zeit.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bcg.jpg" />
+    <Resource Include="flake.jpg" />
+    <Resource Include="herzeleid.jpg" />
+    <Resource Include="kruspe.jpg" />
+    <Resource Include="landers.jpg" />
+    <Resource Include="lifad.jpeg" />
+    <Resource Include="lindemann.jpg" />
+    <Resource Include="mutter.jpg" />
+    <Resource Include="rammstein.jpg" />
+    <Resource Include="rammsteinlogo.ico" />
+    <Resource Include="reisereise.jpg" />
+    <Resource Include="riedel.jpg" />
+    <Resource Include="rosenrot.jpeg" />
+    <Resource Include="schneider.jpg" />
+    <Resource Include="sehnsucht.jpg" />
+    <Resource Include="zeit.png" />
+  </ItemGroup>
+
+</Project>
