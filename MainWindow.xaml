@@ -23,12 +23,8 @@
             <RowDefinition Height="351"/>
 
         </Grid.RowDefinitions>
-        <Button x:Name="button1" Grid.Row="3" Content="Members" Click="Button_Members" Grid.Column="1" Foreground="Red" FontFamily="Segoe UI Black" FontWeight="Bold" FontSize="36">
-            <Button.Background>
-                <ImageBrush/>
-            </Button.Background>
-        </Button>
-        <Button x:Name="button2" Grid.Column="1" Grid.Row="1" Content="Albums" Click="Button_Alba" FontSize="36" FontWeight="Bold" FontFamily="Segoe UI Black" Foreground="Red" Background="{x:Null}"/>
+        <Button x:Name="button1" Grid.Row="3" Content="Members" Click="Button_Members" Grid.Column="1" Foreground="Red" FontFamily="Segoe UI Black" FontWeight="Bold" FontSize="36" Background="#8C000000"/>
+        <Button x:Name="button2" Grid.Column="1" Grid.Row="1" Content="Albums" Click="Button_Alba" FontSize="36" FontWeight="Bold" FontFamily="Segoe UI Black" Foreground="Red" Background="#8C000000"/>
         <Label Content="Rammstein" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="36" Background="#FFFF1414"></Label>
 
     </Grid>

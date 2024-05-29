@@ -23,14 +23,14 @@
             <ColumnDefinition Width="50"/>
         </Grid.ColumnDefinitions>
 
-        <Image Source="herzeleid.jpg" Grid.Row="1" Grid.Column="1"></Image>
-        <Image Source="/sehnsucht.jpg" Grid.Row="1" Grid.Column="2"></Image>
-        <Image Source="/mutter.jpg" Grid.Row="1" Grid.Column="3"></Image>
-        <Image Source="/reisereise.jpg" Grid.Row="1" Grid.Column="4"></Image>
-        <Image Source="/rosenrot.jpeg" Grid.Row="2" Grid.Column="1"></Image>
-        <Image Source="/lifad.jpeg" Grid.Row="2" Grid.Column="2"></Image>
-        <Image Source="/rammstein.jpg" Grid.Row="2" Grid.Column="3"></Image>
-        <Image Source="/zeit.png" Grid.Row="2" Grid.Column="4"></Image>
+        <Image Source="herzeleid.jpg" Grid.Row="1" Grid.Column="1" MouseLeftButtonDown="album1"></Image>
+        <Image Source="/sehnsucht.jpg" Grid.Row="1" Grid.Column="2" MouseLeftButtonDown="album2"></Image>
+        <Image Source="/mutter.jpg" Grid.Row="1" Grid.Column="3" MouseLeftButtonDown="album3"></Image>
+        <Image Source="/reisereise.jpg" Grid.Row="1" Grid.Column="4" MouseLeftButtonDown="album4"></Image>
+        <Image Source="/rosenrot.jpeg" Grid.Row="2" Grid.Column="1" MouseLeftButtonDown="album5"></Image>
+        <Image Source="/lifad.jpeg" Grid.Row="2" Grid.Column="2" MouseLeftButtonDown="album6"></Image>
+        <Image Source="/rammstein.jpg" Grid.Row="2" Grid.Column="3" MouseLeftButtonDown="album7"></Image>
+        <Image Source="/zeit.png" Grid.Row="2" Grid.Column="4" MouseLeftButtonDown="album8"></Image>
 
         <Button x:Name="button1" Grid.Row="3" Content="Back" Click="Button_Back" Grid.Column="1" Foreground="Red" FontFamily="Segoe UI Black" FontWeight="Bold" FontSize="36" Background="{x:Null}"></Button>
 
